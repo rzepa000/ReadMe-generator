@@ -66,6 +66,7 @@ ${response.description}
 - [Usage](#usage)
 - [How to contribute](#credits)
 - [Tests](#tests)
+- [License](#license)
 - [Questions](#questions)
 ## Installation {#installation}
 ${response.installation}
