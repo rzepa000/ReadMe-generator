@@ -74,6 +74,8 @@ ${response.installation}
 ${response.usage}
 ## How to Contribute {#credits}
 ${response.contributing} 
+##License {#license}
+Application is covered under ${response.license} license.
 ## Tests {#tests}
 ${response.tests} 
 ## Questions {#questions}
@@ -82,18 +84,7 @@ and if you have any questions about this project please email me at: ${response.
             , (err)=>
             err ? console.error(err) : console.log('ReadMe generated!')
             )
-    
+   
     }
-      );
-
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();
+    );
+     
