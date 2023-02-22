@@ -1,15 +1,27 @@
-#rzepak 
+# README Generator
+
 ## Description
-            
-## Table of Contents
+
+Created for purpose of further polishing my skills with NodeJs. Learned to correctly use NodeJS and call it in terminal.
+
 ## Installation
 
-## Usage 
+N/A
 
-## How to Contribute 
- 
-## Tests
- 
-## Questions
-Please check my github project  https://github.com/rzepa 
-and if you have any questions please email me at: rzepa8@gmail.com 
+## Usage
+
+Open terminal in the directory and call node with index.js as argument to start generating README file with your prefered information.
+
+    
+![website screenshot](https://github.com/rzepa000/ReadMe-generator/blob/main/screenshot.jpg)
+
+
+## Credits
+
+N/A
+
+## License
+
+Please refer to the LICENSE in the repo.
+
+
