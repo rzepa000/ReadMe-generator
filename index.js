@@ -58,27 +58,44 @@ inquirer
         {
             
 fs.appendFile("readmes/README.md",`# ${response.projecttitle}
+
 <img src="https://img.shields.io/badge/license-${response.license}-blue">
+
 ## Description
-${response.description}            
+
+${response.description} 
+
 ## Table of Contents
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [How to contribute](#credits)
 - [Tests](#tests)
 - [License](#license)
 - [Questions](#questions)
+
 ## Installation {#installation}
+
 ${response.installation}
+
 ## Usage {#usage}
+
 ${response.usage}
+
 ## How to Contribute {#credits}
+
 ${response.contributing} 
+
 ##License {#license}
+
 Application is covered under ${response.license} license.
+
 ## Tests {#tests}
+
 ${response.tests} 
+
 ## Questions {#questions}
+
 Please check my github projects  https://github.com/${response.git} 
 and if you have any questions about this project please email me at: ${response.email} `
             , (err)=>
